@@ -1,0 +1,331 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Adactin WebPage Automatopn",
+        "description": "",
+        "id": ";adactin-webpage-automatopn;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 31648278339,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I want to open the Adactin WebPage and Automate",
+            "match": {
+              "location": "FinalClass.i_want_to_open_the_Adactin_WebPage_and_Automate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3269962881,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the \"britto619\" and \"bunt353bey150\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"britto619\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"bunt353bey150\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FinalClass.i_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ANJK2SU\u0027, ip: \u0027192.168.43.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Britto\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b2a6cf76513a6126c7549d4b8beabf41\n*** Element info: {Using\u003did, value\u003dlogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.click(Unknown Source)\r\n\tat org.base.adactin.BaseClass.click(BaseClass.java:39)\r\n\tat org.FinalPackage.FinalClass.i_clicked_the_login_button(FinalClass.java:36)\r\n\tat ✽.I clicked the login button(C:/Users/Britto/eclipse-workspace/CucumberAutomation/src/test/resources/LoginFeatureValidation.feature:26)\r\n",
+              "duration": 4126750027,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I clicked the login button",
+            "match": {
+              "location": "FinalClass.i_clicked_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37632,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify the homepage",
+            "match": {
+              "location": "FinalClass.i_verify_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Adactin WebPage Automatopn",
+        "description": "",
+        "id": ";adactin-webpage-automatopn;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ANJK2SU\u0027, ip: \u0027192.168.43.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Britto\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 719eb26ebae10d68f50bc7c6d9f4b7d9\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat org.base.adactin.BaseClass.maximizeAndWait(BaseClass.java:32)\r\n\tat org.FinalPackage.FinalClass.i_want_to_open_the_Adactin_WebPage_and_Automate(FinalClass.java:24)\r\n\tat ✽.I want to open the Adactin WebPage and Automate(C:/Users/Britto/eclipse-workspace/CucumberAutomation/src/test/resources/LoginFeatureValidation.feature:24)\r\n",
+              "duration": 5677912340,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I want to open the Adactin WebPage and Automate",
+            "match": {
+              "location": "FinalClass.i_want_to_open_the_Adactin_WebPage_and_Automate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62150,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I enter the \"britto619\" and \"bunt353bey150\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"britto619\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"bunt353bey150\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FinalClass.i_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58159,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I clicked the login button",
+            "match": {
+              "location": "FinalClass.i_clicked_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58728,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I verify the homepage",
+            "match": {
+              "location": "FinalClass.i_verify_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Search the hotel",
+        "description": "",
+        "id": ";search-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1106151,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I want to select to the hotel",
+            "match": {
+              "location": "FinalClass.i_want_to_select_to_the_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ANJK2SU\u0027, ip: \u0027192.168.43.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Britto\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 719eb26ebae10d68f50bc7c6d9f4b7d9\n*** Element info: {Using\u003did, value\u003dlocation}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat org.base.adactin.BaseClass.selectByIndex(BaseClass.java:46)\r\n\tat org.FinalPackage.FinalClass.select_the_location_hotel_roomtype_numberOfRooms(FinalClass.java:54)\r\n\tat ✽.select the location hotel roomtype numberOfRooms(C:/Users/Britto/eclipse-workspace/CucumberAutomation/src/test/resources/LoginFeatureValidation.feature:37)\r\n",
+              "duration": 2863580278,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "select the location hotel roomtype numberOfRooms",
+            "match": {
+              "location": "FinalClass.select_the_location_hotel_roomtype_numberOfRooms()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22237,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "enter the date in",
+            "match": {
+              "location": "FinalClass.enter_the_date_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18246,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "enter the date out",
+            "match": {
+              "location": "FinalClass.enter_the_date_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17106,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "enter the adultInRoom, childInRoom",
+            "match": {
+              "location": "FinalClass.enter_the_adultInRoom_childInRoom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17675,
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "click the search",
+            "match": {
+              "location": "FinalClass.click_the_search()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "Book the hotel",
+        "description": "",
+        "id": ";book-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 407679,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I want to Book the hotel",
+            "match": {
+              "location": "FinalClass.i_want_to_Book_the_hotel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d97.0.4692.99)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ANJK2SU\u0027, ip: \u0027192.168.43.7\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\Britto\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 719eb26ebae10d68f50bc7c6d9f4b7d9\n*** Element info: {Using\u003did, value\u003dfirst_name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy14.sendKeys(Unknown Source)\r\n\tat org.base.adactin.BaseClass.enterText(BaseClass.java:36)\r\n\tat org.FinalPackage.FinalClass.enter_the_FirstName_LastName_Billing_Address_CreditCardNo(FinalClass.java:93)\r\n\tat ✽.Enter the FirstName LastName Billing Address CreditCardNo(C:/Users/Britto/eclipse-workspace/CucumberAutomation/src/test/resources/LoginFeatureValidation.feature:45)\r\n",
+              "duration": 182627734,
+              "status": "failed"
+            },
+            "line": 45,
+            "name": "Enter the FirstName LastName Billing Address CreditCardNo",
+            "match": {
+              "location": "FinalClass.enter_the_FirstName_LastName_Billing_Address_CreditCardNo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22807,
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "select the cardType expiryMonth expiryYear",
+            "match": {
+              "location": "FinalClass.select_the_cardType_expiryMonth_expiryYear()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18816,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "enter the cvvNumber",
+            "match": {
+              "location": "FinalClass.enter_the_cvvNumber()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  I want to automate the AdactinWebPage",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/Britto/eclipse-workspace/CucumberAutomation/src/test/resources/LoginFeatureValidation.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
